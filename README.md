@@ -1,0 +1,2 @@
+# NUCLEO_F401RE_DFU_SOCK
+MicroPython board definition NUCLEO_F401RE_DFU_SOCK
