@@ -20,13 +20,13 @@ For exsample 64 Mbit AT25SF641.
 Save and build firmware
 ```
 cd ..
-make BOARD=VCC_GND_F407ZG
+make BOARD=NUCLEO_F401RE_DFU_SOCK
 ```
 ## Flashing via DFU 
 To put the board in DFU mode,connect the BOOT0 (CN7 pin7) to the VDD (CN7 pin5) with jumper and connect USB.
-![Jumper position](
+![Jumper position](https://github.com/zmech/NUCLEO_F401RE_DFU_SOCK/blob/master/bootjumper.jpg)
 Now you can flash the board using DFU with the command:
 
-`make BOARD=VCC_GND_F407ZG deploy`
+`make BOARD=NUCLEO_F401RE_DFU_SOCK deploy`
 
 Once the upload is complete, connect BOOT0 to the GND (CN7 pin8) and press reset button.
